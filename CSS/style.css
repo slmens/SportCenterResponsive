@@ -1,6 +1,9 @@
 @import url("../CSS/navbar.css");
 @import url("../CSS/hero.css");
 @import url("../CSS/belowHero.css");
+@import url("../CSS/ourClasses.css");
+@import url("../CSS/bmi.css");
+@import url("../CSS/trainers.css");
 
 * {
   margin: 0;

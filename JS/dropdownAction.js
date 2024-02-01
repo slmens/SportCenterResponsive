@@ -7,8 +7,8 @@ window.addEventListener("scroll", () => {
   if (scrollY > 10) {
     console.log("a");
     if (navbar.style.backgroundColor === "transparent") {
-      navbar.style.position = "fixed";
-      navbar.style.backgroundColor = "#355592";
+      //navbar.style.position = "fixed";
+      //navbar.style.backgroundColor = "#355592";
     }
   } else {
     navbar.style.position = "relative";

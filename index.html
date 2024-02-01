@@ -58,10 +58,139 @@
 
     <!-- BELOW HERO SECTION START -->
     <section id="belowHero">
-        <div></div>
+        <div class="belowHeroCard">
+            <h3>325</h3>
+            <h4>Course</h4>
+        </div>
+        <div class="belowHeroCard">
+            <h3>405</h3>
+            <h4>Work Out</h4>
+        </div>
+        <div class="belowHeroCard">
+            <h3>305</h3>
+            <h4>Working Hour</h4>
+        </div>
+        <div class="belowHeroCard">
+            <h3>705</h3>
+            <h4>Happy Client</h4>
+        </div>
     </section>
     <!-- BELOW HERO SECTION END -->
 
+    <!-- OUR CLASSES SECTION START -->
+
+    <section id="ourClassesSection">
+        <div class="circular-background"></div>
+        <div id="ourClassesTop">
+            <!-- buton divini flex wrap yap  -->
+            <div id="ourClassesIntro">
+                <h2>OUR CLASSES</h2>
+                <div id="ourClassesOrangeBox"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. omnis necessitatibus error quasi fugiat suscipit incidunt quam provident.</p>
+            </div>
+            <div id="ourClassesButtonContainer">
+                <div class="ourClassButtonContainerInd">
+                    <button id="btn1" class="ourClassesButton choosen">Yoga</button>
+                    <div id="btn1tri" class="triangle"></div>
+                </div>
+                <div class="ourClassButtonContainerInd">
+                    <button id="btn2" class="ourClassesButton">Group</button>
+                    <div id="btn2tri" class="triangle destroy-tri"></div>
+                </div>
+                <div class="ourClassButtonContainerInd">
+                    <button id="btn3" class="ourClassesButton">Solo</button>
+                    <div id="btn3tri" class="triangle destroy-tri"></div>
+                </div>
+                <div class="ourClassButtonContainerInd">
+                    <button  id="btn4" class="ourClassesButton">Stretching</button>
+                    <div id="btn4tri" class="triangle destroy-tri"></div>
+                </div>
+            </div>
+        </div>
+        <div id="ourClassesBottom">
+            <!-- yazılar bir divde column yap  -->
+            <!-- bottom'ı flex wrap yap resim aşağı insin  -->
+
+            <div id="ourClassesBottomText">
+                <div id="ourClassesYoga">
+                    <h2>Why are your Yoga?</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque corporis impedit facere explicabo, vitae omnis tenetur quisquam commodi autem sequi ipsam qui! Magni, animi cum deserunt vel harum iure qui incidunt necessitatibus ratione autem eligendi quis architecto! Nobis earum voluptatem iure! Sunt officia nemo eius?</p>                   
+                </div>
+    
+                <div id="ourClassesYogaTimes">
+                    <h2>When comes Yoga Your Time.</h2>
+                    <h4>Saturday-Sunday: 8:00am - 10:00am</h4>
+                    <h4>Monday-Tuesday: 10:00am - 12:00pm</h4>
+                    <h4>Wednesday-Friday: 3:00pm - 6:00pm</h4>
+                </div>
+            </div>
+
+            <img id="ourClassesImg" src="./assets/yoga.jpg" alt="yogaPhoto">
+        </div>
+    </section>
+
+    <!-- OUR CLASSES SECTION END -->
+
+    <!-- BMI SECTION START -->
+
+    <section id="bmiSection">
+        <div id="bmiCalcTop">
+            <h2>BMI CALCULATOR</h2>
+            <p class="bmiCalcTopP">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit veniam eius ipsam qui dolore est perspiciatis pariatur, suscipit expedita enim.</p>
+            <p class="bmiCalcTopP">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam obcaecati optio eveniet ut nisi laboriosam quas distinctio, nesciunt iusto praesentium.</p>
+            <div id="bmiCalcInputContainer">
+                <div id="heightContainer">
+                    <input id="bmiHeigth" type="text" placeholder="Your Height">
+                    <p>cm</p>
+                </div>
+                <div id="weightContainer">
+                    <input id="bmiWeigth" type="text" placeholder="Your Weigt">
+                    <p>kg</p>
+                </div>
+            </div>
+        </div>
+        <div id="bmiCalcBottom">
+            <h4 id="bmiResult">Your BMI</h4>
+            <img src="./assets/bmi-index.jpg" alt="bmiIndex">
+            <div id="bmiIndexSelection" class="bmiIndexUnderweight"></div>
+        </div>
+    </section>
+
+    <!-- BMI SECTION END -->
+
+    <!-- TRAINERS SECTION START -->
+
+    <section id="trainersSection">
+        <div id="trainersIntro">
+            <h2>OUR BEST TRAINERS</h2>
+            <div id="trainersOrangeBox"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. omnis necessitatibus error quasi fugiat suscipit incidunt quam provident.</p>
+        </div>
+        <div id="trainersCardContainer">
+            <div id="trainerCard1" class="trainerCard">
+                <img src="./assets/trainer1.jpg" alt="trainer">
+                <div class="trainerHorizontalFrame"></div>
+                <div class="trainerVerticalFrame"></div>
+            </div>
+            <div id="trainerCard2" class="trainerCard">
+                <img src="./assets/trainer2.jpg" alt="trainer">
+                <div class="trainerHorizontalFrame"></div>
+                <div class="trainerVerticalFrame"></div>
+            </div>
+            <div id="trainerCard3" class="trainerCard">
+                <img src="./assets/trainer3.jpg" alt="trainer">
+                <div class="trainerHorizontalFrame"></div>
+                <div class="trainerVerticalFrame"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TRAINERS SECTION END -->
+
     <script src="./JS/dropdownAction.js"></script>
+    <script src="./JS/ourClassesAction.js"></script>
+    <script src="./JS/bmiAction.js"></script>
+    <script src="./JS/trainersAction.js"></script>
 </body>
 </html>
