@@ -12,37 +12,39 @@
 </head>
 <body>
 
+    <!-- NAVBAR START -->
+    <nav id="navbar">
+        <img id="navLogo" src="./assets/logo.png" alt="logo">
+        <div id="dropdownContainer" class="dropdownContainer" >
+            <div class="dropdownChild"></div>
+            <div class="dropdownChild"></div>
+            <div class="dropdownChild"></div>
+            <div id="dropdownContent" class="dropdown-content">
+                <div id="dropdownContentContainer">
+                    <a href="#heroSection">Home</a>
+                    <a href="#ourClassesSection">Classes</a>
+                    <a href="#ourBestTrainersSection">Trainer</a>
+                    <a href="#reviewSection">Review</a>
+                    <a href="#contactSection">Contact</a>
+                    <a id="btnJoinUs" href="#mapAndFooterSection">JOIN US</a>
+                </div> 
+            </div>
+        </div>
+        <ul>
+            <li><a href="#heroSection"> Home </a></li>
+            <li><a href="#ourClassesSection"> Classes </a></li>
+            <li><a href="#trainersSection"> Trainers </a></li>
+            <li><a href="#reviewSection"> Review </a></li>
+            <li><a href="#contactSection"> Contact </a></li>
+            <li id="btnLiJoinUs"><a href=""> JOIN US </a></li>
+        </ul>
+        
+    </nav>
+    <!-- NAVBAR END -->
+
     <!-- HERO SECTION START -->
     <section id="heroSection">
-        <!-- NAVBAR START -->
-        <nav id="navbar">
-            <img id="navLogo" src="./assets/logo.png" alt="logo">
-            <div id="dropdownContainer" class="dropdownContainer" >
-                <div class="dropdownChild"></div>
-                <div class="dropdownChild"></div>
-                <div class="dropdownChild"></div>
-                <div id="dropdownContent" class="dropdown-content">
-                    <div id="dropdownContentContainer">
-                        <a href="#heroSection">Home</a>
-                        <a href="#ourClassesSection">Classes</a>
-                        <a href="#ourBestTrainersSection">Trainer</a>
-                        <a href="#reviewSection">Review</a>
-                        <a href="#contactSection">Contact</a>
-                        <a id="btnJoinUs" href="#mapAndFooterSection">JOIN US</a>
-                    </div> 
-                </div>
-            </div>
-            <ul>
-                <li><a href="#heroSection"> Home </a></li>
-                <li><a href="#ourClassesSection"> Classes </a></li>
-                <li><a href="#trainersSection"> Trainers </a></li>
-                <li><a href="#reviewSection"> Review </a></li>
-                <li><a href="#contactSection"> Contact </a></li>
-                <li id="btnLiJoinUs"><a href=""> JOIN US </a></li>
-            </ul>
-            
-        </nav>
-    <!-- NAVBAR END -->
+        
         <div class="heroContainer">
             <div class="heroTextContainer">
                 <h2>POWERFULL</h2>
@@ -374,5 +376,6 @@
     <script src="./JS/dropdownAction.js"></script>
     <script src="./JS/ourClassesAction.js"></script>
     <script src="./JS/bmiAction.js"></script>
+    <script src="./JS/navbarAction.js"></script>
 </body>
 </html>

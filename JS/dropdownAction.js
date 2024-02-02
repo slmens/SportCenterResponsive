@@ -4,21 +4,14 @@ const navbar = document.getElementById("navbar");
 window.addEventListener("scroll", () => {
   var scrollY = window.scrollY;
 
-  if (scrollY > 10) {
-    console.log("a");
-    if (navbar.style.backgroundColor === "transparent") {
-      //navbar.style.position = "fixed";
-      //navbar.style.backgroundColor = "#355592";
-    }
+  if (scrollY > 90) {
+    navbar.style.backgroundColor = "#355493";
   } else {
-    navbar.style.position = "relative";
     navbar.style.backgroundColor = "transparent";
   }
 });
 
 dropdownButton.addEventListener("click", () => {
-  console.log(window.innerWidth);
-  console.log(window.outerWidth);
   makeBlock();
 });
 
