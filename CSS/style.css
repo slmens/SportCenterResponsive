@@ -4,6 +4,10 @@
 @import url("../CSS/ourClasses.css");
 @import url("../CSS/bmi.css");
 @import url("../CSS/trainers.css");
+@import url("../CSS/purchase.css");
+@import url("../CSS/review.css");
+@import url("../CSS/contact.css");
+@import url("../CSS/footer.css");
 
 * {
   margin: 0;

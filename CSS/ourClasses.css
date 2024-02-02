@@ -4,16 +4,18 @@
   padding-top: 70px;
   padding-bottom: 70px;
   position: relative;
+  overflow: hidden;
 }
 
 .circular-background {
   position: absolute;
-  right: 0;
-  top: 0;
-  width: 50%;
-  height: 100%;
+  right: -20%;
+  top: -10%;
+  width: 70%;
+  height: 170%;
   background-color: #f7f6f7;
   z-index: -3;
+  transform: rotate(-5deg);
 }
 
 .triangle {
@@ -149,10 +151,10 @@
 @media (min-width: 1920px) {
   .circular-background {
     position: absolute;
-    right: 0;
-    top: 0;
-    width: 50%;
-    height: 100%;
+    right: -20%;
+    top: -10%;
+    width: 70%;
+    height: 160%;
     background-color: #f7f6f7;
     z-index: -3; /* Adjust the angle as needed */
   }
